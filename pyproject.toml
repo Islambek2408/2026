@@ -1,0 +1,51 @@
+[build-system]
+requires = ["setuptools>=45", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "recommendation-system"
+version = "1.0.0"
+description = "📚🎥 Kitob va Film Tavsiya Tizimi - Book and Movie Recommendation System"
+readme = "README.md"
+requires-python = ">=3.8"
+license = {text = "MIT"}
+authors = [
+    {name = "Islambek2408", email = "doniyorivich24@gmail.com"}
+]
+keywords = [
+    "streamlit",
+    "recommendation",
+    "system",
+    "books",
+    "movies",
+    "uzbek"
+]
+
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+]
+
+dependencies = [
+    "streamlit>=1.28.0",
+    "pandas>=2.0.0",
+    "argon2-cffi>=21.3.0",
+    "python-dotenv>=1.0.0",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=7.4.0",
+    "pytest-cov>=4.1.0",
+]
+
+[project.urls]
+Homepage = "https://github.com/Islambek2408/2026"
+Repository = "https://github.com/Islambek2408/2026"
+Issues = "https://github.com/Islambek2408/2026/issues"
